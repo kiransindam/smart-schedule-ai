@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				calendar: {
+					'event-primary': '#4f46e5',
+					'event-secondary': '#8b5cf6',
+					'event-focus': '#a855f7',
+					'event-meeting': '#3b82f6',
+					'hover': 'rgba(79, 70, 229, 0.1)'
 				}
 			},
 			borderRadius: {
